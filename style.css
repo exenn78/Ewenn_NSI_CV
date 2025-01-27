@@ -1,0 +1,61 @@
+body{
+    background-image: url(../img/fond.jpeg);
+}
+
+.cv{
+    width: 80%;
+    background-color: grey;
+    margin-left: auto;
+    margin-right: auto;
+    border: 10px solid;
+    border-color: rgb(63, 63, 63);
+    border-radius: 10px;
+    max-width: 500px;
+
+
+}
+
+h1{
+    font-family: Impact;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+h3{
+    font-family: sans-serif;
+}
+
+p{
+    font-family: sans-serif;
+    text-align: center;
+}
+
+hr{
+    width: 80%;
+    height: 3px;
+    background-color: white;
+}
+
+.main_content{
+    display: flex;
+    justify-content: space-around;
+}
+
+.left_div, .right_div{
+    width: 40%;
+}
+
+.article, .age, .travail{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.age{
+    text-align: left;
+}
+
+.travail{
+    text-align: right;
+
+}
